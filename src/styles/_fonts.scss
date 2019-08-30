@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 400;
+  src: local('SF Pro Display'), url("./fonts/SF-UI-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  src: local('SF Pro Display'), url("./fonts/SF-UI-Display-Medium.otf");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 700;
+  src: local('SF Pro Display'), url("./fonts/SF-UI-Display-Bold.otf");
+}
+
+$font: 'SF Pro Display';
+
