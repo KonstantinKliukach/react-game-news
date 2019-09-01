@@ -12,15 +12,15 @@ const NewsItemTop = ({ tag, time }) => {
     const difference = dateNow.getHours() - dateOfCreation.getHours();
     switch (true) {
       case difference === 3:
-        return 'Три часа назад';
+        return 'три часа назад';
       case difference === 2:
         return 'два часа назад';
       case difference === 1:
-        return 'Час назад';
+        return 'час назад';
       case difference < 1:
         return (`${dateOfCreation.getHours()}:${dateOfCreation.getMinutes()}`);
       default:
-        return 'Более 3х часов назад';
+        return 'более 3х часов назад';
     }
   };
   return (

@@ -12,8 +12,8 @@
     padding-left: 17px;
     padding-right: 17px;
     padding-bottom: 17px;
+    font-family: $font;
     h2 {
-      font-family: $font;
       font-size: 1.125em;
       font-weight: 700;
       line-height: 133%;
@@ -24,6 +24,7 @@
     p {
       font-size: 87.5%;
       line-height: 129%;
+      font-weight: 400;
       opacity: 0.7;
       margin-bottom: 16px;
       max-width: 480px;

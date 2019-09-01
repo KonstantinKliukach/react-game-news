@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import uniqid from 'uniqid';
-import { Drop } from 'assets/icons'
+import { Drop } from 'assets/icons';
 
 import './Filter.scss';
 
