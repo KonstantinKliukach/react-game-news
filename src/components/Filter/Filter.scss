@@ -1,0 +1,36 @@
+@import 'styles/_fonts.scss';
+@import 'styles/_vars.scss';
+
+.dropdown {
+  text-align: left;
+  width:100%;
+  max-width: 180px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  display: inline-block;
+  background-color: $itemColor;
+  border-radius: 8px;
+  padding: 11px 17px;
+  font-family: $font;
+  color: #ffff;
+  font-size: 0.875em;
+  cursor: pointer;
+  .filterTitle {
+    font-weight: 400;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    margin-top: 0.5em;
+  }
+}
+
+li a {
+  text-decoration: none;
+}

@@ -1,0 +1,38 @@
+@import 'styles/_fonts.scss';
+@import 'styles/_vars.scss';
+
+.newsItemBottom {
+  display:flex;
+  justify-content: space-between;
+}
+.socialContainer{
+  display:flex;
+  align-items: center;
+  .iconContainer{
+    width: 26px;
+    display:flex;
+    align-items: center;
+  }
+  .bookmarkContainer{
+    width: 21px;
+    display:flex;
+    align-items: center;
+  }
+  .iconText {
+    font-family: $font;
+    font-weight: 500;
+    font-size: 0.875em;
+    margin-right: 30px;
+  }
+
+}
+
+.viewedContainer {
+  .viewedText {
+    opacity: 0.5;
+    font-family: $font;
+    font-weight: 500;
+    font-size: 0.875em;
+    margin-left: 5px;
+  }
+}
