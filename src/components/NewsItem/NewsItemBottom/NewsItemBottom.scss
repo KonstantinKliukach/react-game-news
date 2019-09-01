@@ -8,6 +8,9 @@
 .socialContainer{
   display:flex;
   align-items: center;
+  .socialContainer {
+    display: flex;
+  }
   .iconContainer{
     width: 26px;
     display:flex;

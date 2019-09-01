@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import uniqid from 'uniqid';
+import { Drop } from 'assets/icons'
 
 import './Filter.scss';
 
@@ -14,7 +15,12 @@ const Filter = ({ filters, onChange, selected }) => {
   return (
     <div className="dropdownContainer">
       <div className="dropdown" onClick={onClick} >
-        <span className="filterTitle">Игры: </span>{selected}
+        <div className="control">
+          <div>
+            <span className="filterTitle">Игры: </span>{selected}
+          </div>
+          <Drop className={isShown ? 'iconOpened' : 'iconClosed'}/>
+        </div>
         { isShown && (
           <ul>
             {filters.map(filter => <li key={uniqid.time()}>

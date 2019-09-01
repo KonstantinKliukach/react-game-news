@@ -4,6 +4,7 @@ import Xp from './xp';
 import Comments from './comments';
 import Bookmark from './bookmark';
 import Viewed from './viewed';
+import Drop from './drop';
 
 export {
   Csgo,
@@ -12,4 +13,5 @@ export {
   Comments,
   Bookmark,
   Viewed,
+  Drop,
 };

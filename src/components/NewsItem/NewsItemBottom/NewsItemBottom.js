@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-restricted-properties */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -38,18 +39,24 @@ const NewsItemBottom = (props) => {
   return (
     <div className="newsItemBottom">
       <div className="socialContainer">
-        <div className="iconContainer">
-          <Xp />
-        </div>
-        <span className='iconText'>{`${xp} XP`}</span>
-        <div className="iconContainer">
-          <Comments />
-        </div>
-        <span className='iconText'>{!comments ? 'Обсудить' : comments}</span>
-        <div className="bookmarkContainer">
-          <Bookmark />
-        </div>
-        <span className='iconText'>{!bookmarked ? 'В закладки' : bookmarked}</span>
+        <a href="#" className="socialContainer">
+          <div className="iconContainer">
+            <Xp />
+          </div>
+          <span className='iconText'>{`${xp} XP`}</span>
+        </a>
+        <a href="#" className="socialContainer">
+          <div className="iconContainer">
+            <Comments />
+          </div>
+          <span className='iconText'>{!comments ? 'Обсудить' : comments}</span>
+        </a>
+        <a href="#" className="socialContainer">
+          <div className="bookmarkContainer">
+            <Bookmark />
+          </div>
+          <span className='iconText'>{!bookmarked ? 'В закладки' : bookmarked}</span>
+        </a>
       </div>
       <div className='viewedContainer'>
         <Viewed />
