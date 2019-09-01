@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 const news = [
   {
     tag: 'CSGO',
@@ -11,7 +12,7 @@ const news = [
       const newDate = new Date();
       return newDate.setHours(newDate.getHours() - 1);
     })(),
-    image: '',
+    image: require('../../assets/img/1.png'),
     author: '',
   },
   {
@@ -41,7 +42,7 @@ const news = [
       const newDate = new Date();
       return newDate.setHours(newDate.getHours() - 3);
     })(),
-    image: '',
+    image: require('../../assets/img/2.png'),
     author: {
       name: 'Lord Mantis',
       avatar: '',

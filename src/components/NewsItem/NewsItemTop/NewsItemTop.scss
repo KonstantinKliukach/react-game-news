@@ -1,0 +1,38 @@
+@import 'styles/_fonts.scss';
+@import 'styles/_vars.scss';
+
+.newsItemTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tagContainer {
+  display: flex;
+  align-items: center;
+  font-size: 0.750em;
+  font-weight: 500;
+  line-height: 0.875em;
+  color: #FFFFFF;
+  opacity: 0.95;
+  font-family: $font;
+}
+
+.timeContainer {
+  display: flex;
+  align-items: center;
+  font-family: $font;
+  font-weight: 400;
+  font-size: 0.750em;
+  opacity: 0.5;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-color: $iconColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin-right: 8px;
+}
